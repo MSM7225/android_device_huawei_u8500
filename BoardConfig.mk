@@ -26,11 +26,11 @@ include device/huawei/msm7x25-common/BoardConfigCommon.mk
 TARGET_BOARD_VARIANT := msm7x25
 
 # Target Properties
-TARGET_BOOTLOADER_BOARD_NAME := u8150
-TARGET_OTA_ASSERT_DEVICE := u8150,hwu8150,ideos,U8150
+TARGET_BOOTLOADER_BOARD_NAME := u8500
+TARGET_OTA_ASSERT_DEVICE := u8500,hwu8500,U8500
 
 # GPS
-BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := u8150
+BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := u8500
 
 # Wi-Fi
 BOARD_WLAN_DEVICE := bcmdhd
@@ -47,5 +47,5 @@ WIFI_DRIVER_MODULE_ARG := "firmware_path=/system/etc/fw_4319.bin nvram_path=/sys
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/huawei/u8150
-TARGET_KERNEL_CONFIG := cyanogen_u8150_defconfig
-BOARD_KERNEL_CMDLINE := mem=211M console=ttyMSM2,115200n8 androidboot.hardware=u8150
+TARGET_KERNEL_CONFIG := cyanogen_u8500_defconfig
+BOARD_KERNEL_CMDLINE := mem=211M console=ttyMSM2,115200n8 androidboot.hardware=u8500

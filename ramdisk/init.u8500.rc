@@ -1,4 +1,4 @@
-import init.u8150.usb.rc
+import init.u8500.usb.rc
 import init.msm7x25.parts.rc
 
 on early-init
