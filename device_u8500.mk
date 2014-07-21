@@ -15,7 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 
 # Inherit products
-$(call inherit-product, vendor/huawei/u8150/vendor.mk)
+$(call inherit-product, vendor/huawei/u8500/vendor.mk)
 
 # Add device package overlay
 DEVICE_PACKAGE_OVERLAYS := device/huawei/u8500/overlay
