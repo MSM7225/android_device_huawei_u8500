@@ -51,5 +51,4 @@ PRODUCT_COPY_FILES += \
 # Init files
 PRODUCT_COPY_FILES += \
     device/huawei/u8500/ramdisk/init.u8500.rc:root/init.u8500.rc \
-    device/huawei/u8500/ramdisk/init.u8500.usb.rc:root/init.u8500.usb.rc \
-    device/huawei/u8500/ramdisk/ueventd.u8500.rc:root/ueventd.u8500.rc
+    device/huawei/u8500/ramdisk/init.u8500.usb.rc:root/init.u8500.usb.rc
